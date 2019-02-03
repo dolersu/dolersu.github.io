@@ -19,23 +19,19 @@
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 	<link href="css/documents.css" rel="stylesheet">
-	
+	<link href="https://3dsec.sberbank.ru/demopayment/docsite/assets/css/modal.css" rel="stylesheet">
+	<script src="https://3dsec.sberbank.ru/demopayment/docsite/assets/js/ipay.js"></script>
+	<script src="https://3dsec.sberbank.ru/demopayment/docsite/assets/js/ipay-modal.js"></script>
 
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<link href="https://3dsec.sberbank.ru/demopayment/docsite/assets/css/modal.css" rel="stylesheet">
-	<script src="js/ipay.js"></script>
-	<script type="text/javascript">
-		var ipay = new IPAY({
-			api_token: "8ebdn1pe93a0ckruonr8pbu25c"
-		});
-	</script>
+	
 </head>
-<body id="page-top" data-spy="scroll" data-target=".side-menu">
-	<script src="https://3dsec.sberbank.ru/demopayment/docsite/assets/js/ipay-modal.js"></script>
+<body>
+	
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
@@ -878,7 +874,12 @@
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
-
+	<script type="text/javascript">
+		var ipay = new IPAY({
+            api_token: "8ebdn1pe93a0ckruonr8pbu25c"
+        });
+	</script>
 	<script  src="js/anypages.js"></script>
+	
 </body>
 </html>
