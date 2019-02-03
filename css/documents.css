@@ -1,0 +1,334 @@
+
+
+ .uslugidetail{
+ 	font-size: 0.8rem;
+ }
+ 
+
+
+
+
+.usluga_name{
+	width: 64%;
+	display:inline-block;
+	font-family: OSCB;
+	font-size:1.6em;	
+}
+
+
+.pos{
+	border-top:0.6px solid rgb(99, 88, 13);
+	display: block;
+	margin:10px 0;
+	font-family: OSCB;
+	font-size:1em;
+}
+
+.pos_spis{
+	margin:40px 0;
+}
+
+.pos_name{
+	display: inline-block;
+	padding-top: 5px;
+	width: 32%;
+}
+
+.pos_price{
+	display: inline-block;
+	padding-top: 5px;
+	max-width: 280px;
+	width: 32%;
+
+}
+
+.div_amount{
+	display: inline-block;
+	padding-top: 6px;
+	min-width: 150px;
+	width: 15%;
+}
+
+.amount{
+	font-family: OSCB;
+	font-size:1em;
+	height: 30px;
+	text-align: center;
+	width: 100%;
+}
+.rslt{
+	display: inline-block;
+	padding-top: 5px;
+	max-width: 200px;
+	width: 15%;
+	text-align: center;
+}
+
+.order{
+	display: none;
+	width: 30%;
+	min-width: 370px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#final_rate{
+	display: block;
+	font-family: OSCB;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+	font-size:1.8em;
+	
+
+}
+
+#order{
+	display: block;
+	font-family: OSCB;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+	font-size:2.2em;
+	background:#baff00;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+#order:hover {
+	box-shadow: 0 0 25px rgba(0,0,0,0.8);
+	cursor: pointer;
+}
+
+#order:active {
+	box-shadow: 0 0 0 rgba(0,0,0,0.8);
+	color:white;
+	
+}
+
+.back_for_bank{
+	
+	border-top:0.7px solid #f7bf07;
+	padding-bottom: 50px;
+}
+
+.for_bank{
+	margin-top:60px;
+	font-family: "OSCB";
+	font-size:0.9em;
+	
+}
+
+
+.l {
+	display: inline-block;
+	float: left;
+}
+
+.r {	
+	display: inline-block;
+	float: right;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 360px){
+
+	.navbar-hide div{
+		width: 100%;
+		height: 100%;
+
+	}
+	.detail{
+		width:100%;
+		padding: 5px 2%;
+		font-size: 1.2em;
+	}
+	.service_img{
+		font-size: 1.2em;
+		width:100%;
+		box-shadow: 0 0 0;
+	}
+
+	.service_name{
+		width:100%;
+		height:100%;
+		margin:0 auto;
+		border: 0.5px solid white;
+	}
+	.btn{
+		margin: 0 auto;
+		font-size:1.6em;
+		width: 80% !important;
+	}
+	.order{
+		min-width: 0;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 450px){
+
+	.navbar-hide div{
+		width: 100%;
+		height: 100%;
+
+	}
+	.detail{
+		width:100%;
+		padding: 5px 2%;
+		font-size: 1.2em;
+	}
+	.btn{
+		margin: 20px auto;
+		font-size:1.6em;
+		width: 60% !important;
+	}
+
+	.order{
+		min-width: 0;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.hide,.logo,.office_img{
+		display:none !important;
+	}
+	.navbar{
+		position: static;
+
+	}
+	.navbar-in, .navbar-hide, .service_in, .footer_in, .text_head{
+		width: 100%;
+	}
+	.navbar-in div{
+		width:100%;
+
+	}
+	.phone{
+		min-width:100px;
+
+	}
+	.navbar-hide div{
+		font-size: 0.85em;
+		height: 100%;
+
+	}
+
+	.detail{
+		width:100%;
+		padding: 15px 2%;
+		font-size: 1.2em;
+	}
+	.btn{
+		margin: 20px auto;
+		font-size:1.6em;
+		width: 45%;
+	}
+	.map{
+		width: 100%;
+	}
+	.about{
+		width: 100%;
+		border:0;
+		padding: 15px 1%;
+	}
+
+
+	.usluga_name,.pos_name,.pos_price,.div_amount,.rslt{
+		width:100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	.amount{
+		width:70%;
+	}
+	.order{
+		width: 100%;
+	}
+
+	#final_rate{
+		font-size:1.3em;
+	}
+
+	#order{
+		font-size:1.7em;
+	}
+
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 860px){
+	.hide{
+		display:none !important;
+	}
+	.navbar-in, .navbar-hide, .service_in, .footer_in, .text_head{
+		width: 100%;
+
+	}
+	.navbar-in div{
+		width:25%;
+		font-size:1em;	
+	}
+	.phone{
+		min-width:100px;
+	}
+	.navbar-hide div{
+		height: 100%;
+
+	}
+	.office_img_in{
+		padding:170px 3% 0 3%;
+		height:400px;
+		font-size: 2.5em;
+	}
+	.detail{
+		width:50%;
+		padding: 0 2%;
+		font-size: 1.2em;
+	}
+	.btn{
+		margin: 30px auto;
+		font-size:2.2em;
+	}
+	.about{
+
+		width: 50%;
+		font-size: 1.1em;
+
+	}
+	.usluga_name,.pos_name,.pos_price,.div_amount,.rslt{
+		width:100%;
+		max-width: 100%;
+		text-align: center;
+		font-size:1.2em;
+	}
+	.amount{
+		width:50%;
+	}
+
+}
+
+@media screen and (min-width: 860px) and (max-width: 1230px) {
+	.hide{
+		display:none !important;
+	}
+	.navbar-in div{
+		width:25%;
+	}
+	.detail{
+		display:inline-block;
+		width:50%;
+		padding: 0 1%;
+		font-size: 1.4em;
+	}
+	.btn{
+		margin: 30px auto;
+		font-size:2.8em;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.navbar, .office_img_in,footer {
+		max-width: 100%;
+
+	}
+	.navbar-in, .navbar-hide, .footer_in, , .text_head{
+		width: 95%;
+	}
+}

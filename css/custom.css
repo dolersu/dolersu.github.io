@@ -1,0 +1,122 @@
+.service-sub-section {
+    padding: 4px;
+}
+
+.service-item {
+    padding: 3px;
+}
+
+.service-item:hover {
+    background-color: #eee;
+}
+
+.service-item .name {
+    font-weight: bold;
+    display: inline-block;
+    width: 45%;
+}
+
+.service-item .unit {
+    display: inline-block;
+    width: 5%;
+    vertical-align: top;
+}
+
+.service-item .price {
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    vertical-align: top;
+}
+
+.service-item .count {
+    display: inline-block;
+    text-align: right;
+    width: 5%;
+    vertical-align: top;
+}
+
+.service-item .buy {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+}
+
+.service-item .desc {
+    width: 50%;
+    font-style: italic;
+}
+.tingle-modal__close {
+    top: 0 !important;
+}
+.tingle-modal-box {
+    top: 46% !important;
+}
+
+.tingle-enabled {
+    overflow: hidden !important;
+    height: 100% !important;
+}
+
+input.number {
+    text-align: right;
+    width: 100%;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .service-item {
+        font-size: 12px;
+        border: 2px solid #f6f6f6;
+        border-radius: 4px;
+        margin: 1px 0;
+    }
+
+    .services h2 {
+        font-size: 22px;
+    }
+
+    .services h3 {
+        font-size: 18px;
+    }
+
+    .tickets .main-image {
+        width: 100%;
+    }
+
+    .hero-header {
+        max-height: 100%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 440px) {
+
+    .service-item .name {
+        width: 65%;
+    }
+
+    .service-item .unit {
+        width: 5%;
+    }
+
+    .service-item .price {
+        width: 20%;
+    }
+
+    .service-item .count {
+        width: 20%;
+    }
+
+    .service-item .buy {
+        width: 50%;
+        margin: 4px;
+    }
+
+    .service-item .desc {
+        width: 100%;
+    }
+}
